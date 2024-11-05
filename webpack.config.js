@@ -75,7 +75,7 @@ if (process.env.NODE_ENV === 'production') {
       minimize: true
     }),
     new HtmlWebpackPlugin({
-      filename: '200.html',
+      filename: 'index.html',
       template: '200.html',
       inlineSource: '.(js|css)$',
       inject: true,
